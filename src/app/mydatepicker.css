@@ -1,0 +1,62 @@
+.mydp .icon-mydpcalendar,
+.mydp .icon-mydpremove {
+    font-size: 16px;
+}
+
+.mydp .icon-mydpleft,
+.mydp .icon-mydpright,
+.mydp .icon-mydpup,
+.mydp .icon-mydpdown {
+    color: #222;
+    font-size: 20px;
+}
+
+.mydp .btndecrease .icon-mydpleft,
+.mydp .btnincrease .icon-mydpright {
+    font-size: 16px;
+}
+
+.mydp .icon-mydptoday {
+    color: #222;
+    font-size: 11px;
+}
+
+
+
+.mydp .mydpicon {
+    font-family: 'mydatepicker';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mydp .icon-mydpright:before {
+    content: "\e800";
+}
+
+.mydp .icon-mydpleft:before {
+    content: "\e801";
+}
+
+.mydp .icon-mydptoday:before {
+    content: "\e802";
+}
+
+.mydp .icon-mydpcalendar:before {
+    content: "\e803";
+}
+
+.mydp .icon-mydpup:before {
+    content: "\e804";
+}
+
+.mydp .icon-mydpdown:before {
+    content: "\e805";
+}
+
+.mydp .icon-mydpremove:before {
+    content: "\e806";
+}

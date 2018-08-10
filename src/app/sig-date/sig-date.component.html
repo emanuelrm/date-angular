@@ -1,0 +1,17 @@
+<!-- input box styling is bootstrap 3.3.7 -->
+<form>
+  <div class="input-group">
+      <input class="form-control" style="float:none" placeholder="Select a date" ngx-mydatepicker name="mydate"
+              [options]="myOptions" #dp="ngx-mydatepicker" (click)="dp.openCalendar()" (dateChanged)="onDateChanged($event)"
+              [textMask]="{mask: mask}"/>
+
+      <span class="input-group-btn">
+          <button type="button" class="btn btn-default" (click)="dp.clearDate()">
+            <i class="fa fa-remove"></i>
+          </button>
+          <button type="button" class="btn btn-default" (click)="dp.toggleCalendar()">
+            <i class="fa fa-calendar"></i>
+          </button>
+      </span>
+  </div>
+</form>
