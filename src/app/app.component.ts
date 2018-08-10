@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {INgxMyDpOptions, IMyDateModel} from 'ngx-mydatepicker';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testdate';
+ 
+   constructor() { }
+  
+   onBlurMethod(){
+    alert("Oi");
+   }
 }
